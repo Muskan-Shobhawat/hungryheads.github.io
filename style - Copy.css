@@ -158,7 +158,7 @@ a:hover {
     height: 69vh;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(bg.jpg);
     background-repeat: no-repeat;
     background-size: 48vw 80vh;
     background-position: 0vw -2vh;
@@ -292,7 +292,7 @@ a:hover {
     /* align-content: space-between; */
     color: white;
     height: 30vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/patterns.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(patterns.jpg);
     background-size: 20vw;
 }
 
@@ -395,7 +395,7 @@ a:hover {
     display: flex;
     align-items: center;
     align-content: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/doodle2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(doodle2.jpg);
     background-size: 18vw 40vh;
     position: relative;
     transition: 1s;
@@ -595,7 +595,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/locationbg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(locationbg.jpg);
     height: 85vh;
     width: 100vw;
 }
@@ -1539,7 +1539,7 @@ a:hover {
         margin-left: 0vw;
         height: 80vh;
         /* background-image: linear-gradient(to bottom, rgb(232, 222, 214), rgb(236, 207, 172)); */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/bg.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(bg.jpg);
         width: 99vw;
         background-size: 99vw 100vh;
         background-position: 0vw -10vh;
@@ -1745,7 +1745,7 @@ a:hover {
         margin-left: 0vw;
         height: 80vh;
         /* background-image: linear-gradient(to bottom, rgb(232, 222, 214), rgb(236, 207, 172)); */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/bg.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(bg.jpg);
         width: 99vw;
         background-size: 140vw 100vh;
         background-position: -20vw -10vh;
@@ -1856,7 +1856,7 @@ a:hover {
         /* align-content: space-between; */
         color: white;
         height: 35vh;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/patterns.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(patterns.jpg);
         background-size: 20vw;
     }
     
@@ -1967,7 +1967,7 @@ a:hover {
         display: flex;
         align-items: center;
         align-content: center;
-        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/doodle2.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(doodle2.jpg);
         background-size: 25vw 40vh;
         position: relative;
         transition: 1s;
@@ -2171,7 +2171,7 @@ a:hover {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/locationbg.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(locationbg.jpg);
         height: 85vh;
         width: 100vw;
     }
@@ -2215,7 +2215,7 @@ a:hover {
 
 @media only screen and (max-width: 720px) {
     .navbar {
-        border: 2px solid rgb(0, 242, 255);
+        /* border: 2px solid rgb(0, 242, 255); */
         height: 50vh;
         flex-direction: column;
     }
@@ -2252,7 +2252,7 @@ a:hover {
         margin-left: 0vw;
         height: 80vh;
         /* background-image: linear-gradient(to bottom, rgb(232, 222, 214), rgb(236, 207, 172)); */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/bg.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(bg.jpg);
         width: 99vw;
         background-size: 140vw 100vh;
         background-position: -20vw -10vh;
@@ -2363,7 +2363,7 @@ a:hover {
         /* align-content: space-between; */
         color: white;
         height: 35vh;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/patterns.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(patterns.jpg);
         background-size: 20vw;
     }
     
@@ -2474,7 +2474,7 @@ a:hover {
         display: flex;
         align-items: center;
         align-content: center;
-        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/doodle2.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(doodle2.jpg);
         background-size: 25vw 40vh;
         position: relative;
         transition: 1s;
@@ -2678,7 +2678,7 @@ a:hover {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/locationbg.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(locationbg.jpg);
         height: 85vh;
         width: 100vw;
     }
