@@ -1,0 +1,2214 @@
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    /* color: black; */
+}
+
+.navbar2{
+    /* border: 2px solid green; */
+    display: flex;
+    height: 20vh;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    transition: 1s;
+    font-family: 'Mukta', sans-serif;
+}
+
+.logonav2{
+    /* border: 2px solid green; */
+    display: flex;
+    width: 30vw;
+    /* font-size: 15px; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 20vh;
+    /* margin-left: 35vw; */
+    /* margin-bottom:5vh ; */
+}
+
+#logo2 {
+    margin: 5px;
+    margin-right: 1vw;
+    height: 20vh;
+    /* border: 2px solid red; */
+}
+
+#logoname2 {
+    /* margin: 5px; */
+    /* border: 2px solid red; */
+    /* margin-right: 2vw; */
+    font-size: 45px;
+    font-family: 'Satisfy', cursive;
+    /* font-family: 'Kalam', cursive; */
+}
+
+.menunav2{
+    display: flex;
+    width: 50vw;
+    font-size: 25   px;
+    transform: translate(45vw,-15vh);
+    /* margin-left: 25vw; */
+    /* margin-top: 5vh; */
+    /* padding: 10px; */
+    justify-content: space-around;
+    /* border: 2px solid blue; */
+}
+
+.navbar {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    height: 35vh;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    justify-content: center;
+    align-content: center;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    /* width: 100vw; */
+    /* position: fixed; */
+    font-family: 'Mukta', sans-serif;
+}
+
+.logonav {
+    /* border: 2px solid green; */
+    display: flex;
+    width: 32vw;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    /* margin-left: 35vw; */
+    /* margin-bottom:5vh ; */
+}
+
+#logo {
+    margin: 5px;
+    margin-right: 1vw;
+    height: 20vh;
+    /* border: 2px solid red; */
+}
+
+
+
+#logoname {
+    /* margin: 5px; */
+    /* border: 2px solid red; */
+    /* margin-right: 2vw; */
+    font-size: 58px;
+    font-family: 'Satisfy', cursive;
+    /* font-family: 'Kalam', cursive; */
+}
+
+.menunav {
+    display: flex;
+    width: 50vw;
+    font-size: 25px;
+    /* margin-left: 25vw; */
+    /* margin-top: 5vh; */
+    /* padding: 10px; */
+    justify-content: space-around;
+    /* border: 2px solid blue; */
+}
+
+.hovering {
+    padding: 10px;
+    padding-bottom: 0px;
+    border: none;
+    /* border: 2px solid green; */
+    transition: 0.2s ease;
+    margin: 5px;
+    border-bottom: 4px solid rgb(31, 31, 31) ;
+}
+
+.hovering:hover {
+    /* background-color: white; */
+    /* color: black; */
+    border-bottom: 4px solid white;
+}
+
+.content {
+    /* border: 2px solid red; */
+    height: 69vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 48vw 80vh;
+    background-position: 0vw -2vh;
+}
+
+.container {
+    height: 70vh;
+    background-image: linear-gradient(to bottom, rgb(232, 222, 214), rgb(236, 207, 172));
+    margin-left: 44vw;
+    width: 56vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#tagline {
+    /* border: 2px solid blue; */
+    font-size: 50px;
+    /* margin-bottom: 0vh; */
+    margin-left: 2vw;
+    font-family: 'Catamaran', sans-serif;
+}
+
+#tagline2 {
+    /* border: 2px solid blue; */
+    font-size: 25px;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+#line {
+    /* border: 2px solid yellow; */
+    width: 35vw;
+    color: black;
+    background-color: black;
+    border: 2px solid black;
+    /* margin-left: 0px; */
+    margin-left: 2vw;
+
+}
+
+#find {
+    /* border: 2px solid orchid; */
+    width: 8vw;
+    border-radius: 3px;
+    font-size: 15px;
+    height: 5vh;
+    margin-top: 2vh;
+    border: 3px solid black;
+    color: black;
+    background-color: transparent;
+    /* opacity: 0%; */
+    margin-left: 2vw;
+    transition: 0.3s ease;
+}
+
+#find:hover {
+    background-color: black;
+    color: white;
+}
+
+.aboutus {
+    /* border: 2px solid brown; */
+    /* margin-top: 2vh; */
+    color: black;
+    display: flex;
+    flex-direction: row;
+    height: 52vh;
+    width: 100vw;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    padding-right: 0px;
+    margin-right: 0px;
+    background-image: linear-gradient(90deg, rgb(244, 241, 238), rgb(241, 214, 191), rgb(236, 207, 172), rgb(236, 207, 172));
+    /* background-image: linear-gradient(90deg,rgb(244, 241, 238), rgb(236, 207, 172),rgb(236, 207, 172), rgb(236, 207, 172)); */
+    /* background-image: linear-gradient(90deg,rgb(244, 241, 238)10%, rgb(236, 207, 172)90%); */
+}
+
+.aboutflex{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid yellow; */
+    height: 50vh;
+    width: 50vw;
+    padding: 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+
+}
+
+#bg{
+    /* border: 2px solid red; */
+    width: 35vw;
+    height: 45vh;
+    /* margin-left: 5vh; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(bg2.jpg);
+    background-size: 35vw 50vh;
+    background-repeat: no-repeat;
+}
+
+#headabout {
+    /* border: 2px solid green; */
+    width: 12vw;
+    font-size: 40px;
+    margin-top: 5vh;
+    
+}
+
+#descabout {
+    width: 50vw;
+    font-size: 18px;
+    margin-top: 1vh;
+}
+
+.offer {
+    /* border: 2px solid yellow; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    /* align-content: space-between; */
+    color: white;
+    height: 30vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/patterns.jpg);
+    background-size: 20vw;
+}
+
+#headoffer {
+    font-size: 40px;
+    transform: translate(23vw, 0vh);
+    z-index: 1;
+    width: 22vw;
+    font-family: 'Josefin Sans', sans-serif;
+    /* border: 2px solid red; */
+}
+
+#pic {
+    height: 30vh;
+    /* z-index: -1; */
+    transform: translate(-5vw, 0vh);
+    filter: invert();
+    /* z-index: -1; */
+}
+
+.offercontainer {
+    /* border: 2px solid rgb(255, 0, 144); */
+    display: flex;
+    width: 50vw;
+    border-radius: 5px;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(88, 11, 11);
+    transform: translate(7vw, 0vh);
+    box-shadow: 5px 5px 5px rgb(30, 29, 29);
+}
+
+#offercontainerhead {
+    font-size: 55px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#offercontainerhead2 {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+#offerbtn {
+    width: 8vw;
+    height: 8vh;
+    background-color: rgb(72, 169, 72);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    box-shadow: 5px 5px 5px rgb(30, 29, 29);
+
+}
+
+#offerbtn:hover {
+    cursor: pointer;
+    background-color: rgb(53, 124, 30);
+    transition: 0.5s;
+}
+
+.menuslider {
+    /* border: 2px solid yellow; */
+    height: 60vh;
+    color: black;
+    display: flex;
+    width: 100vw;
+    /* overflow: hidden; */
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, rgb(236, 207, 172), rgb(236, 207, 172), rgb(241, 214, 191), rgb(244, 241, 238));
+}
+
+#menuhead{
+    font-size: 60px;
+    /* border: 2px solid white; */
+    width: 20.5vw;
+    margin-left: 3vw;
+    font-family: 'Lobster Two', cursive;
+}
+
+.menu {
+    /* border: 2px solid red; */
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75.5vw;
+    align-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.menucontainer {
+    /* border: 2px solid blue; */
+    /* background-color: rgb(247, 219, 179); */
+    height: 50vh;
+    width: 70vw;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/doodle2.jpg);
+    background-size: 18vw 40vh;
+    position: relative;
+    transition: 1s;
+    overflow: hidden;
+    /* justify-content: center; */
+}
+
+@keyframes example {
+    0% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translateX(calc(-70%));
+    }
+}
+
+.cardcontainer {
+    /* border: 2px solid turquoise; */
+    display: flex;
+    position: relative;
+    /* justify-content: space-around; */
+    transition: 1s;
+    animation: example 30s infinite;
+    animation-timing-function: ease-in-out;
+    width: 100vw;
+    height: 37vh;
+}
+
+.cardcontainer:hover{
+    animation-play-state: paused;
+}
+
+.card {
+    /* border: 2px solid green; */
+    height: 35vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* align-content: center; */
+    background-color: rgb(228, 225, 225);
+    border-radius: 5px;
+    margin: 5px;
+    color: black;
+    filter: brightness(40%);
+}
+
+.card:hover{
+    filter: brightness(100%);
+    /* height: 40vh;
+    width: 40vw; */
+    transition: 0.5s;
+    /* animation-play-state: paused; */
+}
+
+.title {
+    /* border: 2px solid green; */
+    font-size: 20px;
+    margin: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.cardesc{
+    width: 30vw;
+}
+
+#img1 {
+    width: 12vw;
+    height: 20vh;
+    margin-bottom: 20px;
+}
+
+#img2 {
+    width: 13vw;
+    height: 20vh;
+    margin-bottom: 20px;
+}
+
+#img3 {
+    width: 13vw;
+    height: 20vh;
+    margin-bottom: 20px;
+}
+
+#img4 {
+    width: 13vw;
+    height: 20vh;
+    margin-bottom: 20px;
+}
+
+#img5 {
+    width: 13vw;
+    height: 20vh;
+    margin-bottom: 20px;
+}
+
+#img6 {
+    width: 13vw;
+    height: 20vh;
+    margin-bottom: 20px;
+}
+
+#img7 {
+    width: 13vw;
+    height: 20vh;
+    margin-bottom: 20px;
+}
+
+#img8 {
+    width: 13vw;
+    height: 20vh;
+    margin-bottom: 20px;
+}
+
+#img9 {
+    width: 13vw;
+    height: 20vh;
+    margin-bottom: 20px;
+}
+
+#img10 {
+    width: 13vw;
+    height: 20vh;
+    margin-bottom: 20px;
+}
+
+#img11 {
+    width: 13vw;
+    height: 20vh;
+    margin-bottom: 20px;
+}
+
+.contact {
+    /* border: 2px solid black; */
+    display: flex;
+    /* flex-direction: column; */
+    background-color: rgb(31, 31, 31);
+    color: white;
+    width: 100vw;
+    height: 30vh;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+#headcontact {
+    font-size: 25px;
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+    font-family: 'Lato', sans-serif;
+}
+
+#available1 {
+    width: 8vw;
+}
+
+#available2 {
+    height: 17vh;
+}
+
+#phone {
+    height: 5vh;
+    filter: invert();
+}
+
+#number {
+    font-size: 20px;
+    margin-left: 0.5vw;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.flexcontact2 {
+    /* border: 2px solid red; */
+    width: 55vw;
+    display: flex;
+    align-items: center;
+}
+
+#address {
+    font-size: 18px;
+    line-height: 3.5vh;
+    font-family: 'Catamaran', sans-serif;
+}
+
+#location {
+    height: 6vh;
+    filter: invert();
+    margin-left: 2vw;
+
+}
+
+.location {
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/locationbg.jpg);
+    height: 85vh;
+    width: 100vw;
+}
+
+#locationhead {
+    font-size: 45px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 5px;
+    margin-bottom: 2vh;
+    border: 5px dashed white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#logo2 {
+    margin: 5px;
+    margin-right: 1vw;
+    height: 12vh;
+    /* border: 2px solid red; */
+}
+
+#logoname2 {
+    /* margin: 5px; */
+    /* border: 2px solid red; */
+    /* margin-right: 2vw; */
+    font-size: 28px;
+    width: 22vw;
+    font-family: 'Satisfy', cursive;
+    /* font-family: 'Kalam', cursive; */
+}
+
+@media only screen and (max-width: 1500px) {
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #logo2 {
+        margin: 5px;
+        margin-right: 1vw;
+        height: 20vh;
+        /* border: 2px solid red; */
+    }
+    
+    .navbar {
+        /* border: 2px solid yellow; */
+        height: 40vh;
+    }
+    
+    .logonav {
+        width: 35vw;
+    }
+    
+    #headoffer {
+        width: 31vw;
+        transform: translate(26vw, 0vh);
+    }
+    
+    .offercontainer {
+        width: 55vw;
+    }
+    
+    #menuhead{
+        width: 22vw;
+    }
+    
+    #available1 {
+        width: 8.7vw;
+    }
+    
+    .flexcontact2 {
+        width: 60vw;
+    }
+    
+    #location {
+        height: 6vh;
+        filter: invert();
+        margin-left: 2vw;
+    
+    }
+
+    #logo2 {
+        height: 12vh;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    
+    .navbar {
+        /* border: 2px solid green; */
+        height: 50vh;
+    }
+    
+    .content {
+        background-size: 50vw 80vh;
+    }
+    
+    .container {
+        margin-left: 45.5vw;
+    }
+    
+    .aboutus {
+        height: 60vh;
+    }
+    
+    .aboutflex{
+        height: 59vh;
+    
+    }
+    
+    #headabout {
+        width: 14vw;        
+    }
+    
+    #headoffer {
+        font-size: 45px;
+        transform: translate(27vw, 0vh);
+        width: 50vw;
+    }
+    
+    #pic {
+        transform: translate(-2.5vw, 0vh);
+    }
+    
+    .offercontainer {
+        width: 180vw;
+        transform: translate(7vw, 0vh);
+    }
+    
+    #offercontainerhead {
+        font-size: 50px;
+        width: 28vw;    
+    }
+    
+    #offercontainerhead2 {
+        font-size: 23px;
+    }
+    
+    #menuhead{
+        font-size: 58px;
+        width: 25vw;
+    }
+    
+    .menu {
+        height: 60vh;
+        width: 75.5vw;
+    }
+    
+    .menucontainer {
+        height: 50vh;
+        width: 65vw;
+    }
+    
+    @keyframes example {
+        0% {
+            transform: translate(0);
+        }
+    
+        100% {
+            transform: translateX(calc(-71%));
+        }
+    }
+    
+    .cardcontainer {
+        /* border: 2px solid turquoise; */
+        width: 222vw;
+        height: 40vh;
+    }
+    
+    .card {
+        /* border: 2px solid green; */
+        width: 40vw;
+        height: 38vh;
+    }
+    
+    .cardesc{
+        width: 40vw;
+    }
+    
+    #img1 {
+        width: 20vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img2 {
+        width: 20vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img3 {
+        width: 20vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img4 {
+        width: 20vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img5 {
+        width: 20vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img6 {
+        width: 20vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img7 {
+        width: 20vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img8 {
+        width: 20vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img9 {
+        width: 20vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img10 {
+        width: 20vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img11 {
+        width: 20vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #available1 {
+        width: 8vw;
+    }
+    
+    #available2 {
+        height: 13.5vh;
+    }
+    
+    .flexcontact2 {
+        width: 68vw;
+    }
+    
+    #address {
+        /* border: 2px solid red; */
+        font-size: 18px;
+        width: 110vw;
+        line-height: 3.5vh;
+        font-family: 'Catamaran', sans-serif;
+    }
+    
+    #location {
+        height: 6vh;
+        filter: invert();
+        margin-left: 2vw;
+    
+    }
+
+    #map{
+        width: 90vw;
+    }
+    
+    #logo2 {
+        height: 12vh;
+    }
+    
+    #logoname2 {
+        font-size: 28px;
+        width: 60vw;
+    }
+
+}
+
+@media only screen and (max-width: 1177px) {
+    
+    .navbar {
+        /* border: 2px solid rgb(0, 23, 128); */
+        height: 50vh;
+    }
+    
+    .menunav {
+        width: 55vw;
+    }
+    
+    .content {
+        background-size: 55vw 80vh;
+    }
+    
+    .container {
+        margin-left: 50vw;
+    }
+    
+    .aboutus {
+        height: 64vh;
+    }
+    
+    .aboutflex{
+        height: 63vh;
+        
+    }
+    
+    #headabout {
+        width: 15vw;        
+    }
+    
+    #headoffer {
+        font-size: 45px;
+        transform: translate(26vw, 0vh);
+        width: 60vw;
+    }
+    
+    #pic {
+        transform: translate(-2.5vw, 0vh);
+        height: 30vh;
+        width: 40vw;
+    }
+    
+    .offercontainer {
+        width: 200vw;
+        transform: translate(7vw, 0vh);
+    }
+    
+    #offercontainerhead {
+        font-size: 46px;
+        width: 28vw;    
+    }
+    
+    #offercontainerhead2 {
+        font-size: 23px;
+    }
+    
+    #offerbtn {
+        width: 10vw;    
+    
+    }
+    
+    #menuhead{
+        font-size: 58px;
+        width: 28vw;
+    }
+    
+    @keyframes example {
+        0% {
+            transform: translate(0);
+        }
+    
+        100% {
+            transform: translateX(calc(-75%));
+        }
+    }
+    
+    #available1 {
+        width: 8vw;
+    }
+    
+    #available2 {
+        height: 12.5vh;
+    }
+    
+    .flexcontact2 {
+        width: 70vw;
+    }
+
+    #headcontact {
+        margin-left: 3vw;
+    }
+    
+    #address {
+        /* border: 2px solid red; */
+        font-size: 18px;
+        width: 110vw;
+        line-height: 3.5vh;
+        font-family: 'Catamaran', sans-serif;
+    }
+    
+    #location {
+        height: 6vh;
+        filter: invert();
+        margin-left: 2vw;
+    
+    }
+    
+    #logo2 {
+        height: 12vh;
+    }
+    
+    #logoname2 {
+        font-size: 28px;
+        width: 68vw;
+    }
+    
+}
+
+@media only screen and (max-width: 1070px) {
+    
+    .navbar {
+        /* border: 2px solid rgb(255, 0, 187); */
+        height: 50vh;
+    }
+    
+    .menunav {
+        width: 60vw;
+    }
+    
+    .content {
+        background-size: 55vw 80vh;
+    }
+
+    #tagline {
+        font-size: 45px;
+    }
+    
+    #tagline2 {
+        font-size: 22px;
+    }
+    
+    #find {
+        width: 10vw;
+    }
+    
+    .container {
+        margin-left: 50vw;
+    }
+    
+    .aboutus {
+        /* border: 2px solid rgb(255, 0, 187); */
+        height: 64vh;
+    }
+    
+    .aboutflex{
+        /* border: 2px solid rgb(183, 104, 162); */
+        height: 63vh;
+        
+    }
+    
+    #headabout {
+        width: 17vw;        
+    }
+
+    #bg{
+        width: 40vw;
+        height: 45vh;
+        background-size: 38vw 50vh;
+    }
+    
+    #headoffer {
+        /* border: 2px solid rgb(255, 0, 1 70); */
+        font-size: 45px;
+        transform: translate(24vw, 0vh);
+        width: 60vw;
+    }
+    
+    #pic {
+        /* border: 2px solid rgb(255, 0, 170); */
+        transform: translate(-4vw, 0vh);
+        height: 30vh;
+        width: 40vw;
+    }
+    
+    .offercontainer {
+        /* border: 2px solid rgb(255, 153, 0); */
+        width: 310vw;
+        transform: translate(7vw, 0vh);
+    }
+    
+    #offercontainerhead {
+        /* border: 2px solid rgb(255, 0, 170); */
+        font-size: 46px;
+        width: 32vw;    
+        margin-left: 1vw;
+    }
+    
+    #offercontainerhead2 {
+        /* border: 2px solid rgb(0, 238, 255); */
+        font-size: 23px;
+        margin-left: 1vw;
+    }
+    
+    #offerbtn {
+        width: 12vw;    
+        margin-right: 1vw;
+        
+    }
+    
+    #menuhead{
+        font-size: 55px;
+        width: 30vw;
+    }
+    
+    .menu {
+        /* border: 2px solid rgb(255, 247, 0);  */
+        height: 60vh;
+        width: 65vw;
+    }
+    
+    .menucontainer {
+        /* border: 2px solid rgb(255, 247, 0);  */
+        height: 50vh;
+        width: 60vw;
+    }
+    
+    @keyframes example {
+        0% {
+            transform: translate(0);
+        }
+    
+        100% {
+            transform: translateX(calc(-78%));
+        }
+    }
+    
+    #available1 {
+        width: 8vw;
+    }
+    
+    #available2 {
+        height: 11.4vh;
+    }
+    
+    .flexcontact2 {
+        width: 75vw;
+    }
+
+    #headcontact {
+        margin-left: 3vw;
+    }
+    
+    #logoname2 {
+        font-size: 28px;
+        width: 70vw;
+    }
+    
+}
+
+@media only screen and (max-width: 980px) {
+    .navbar {
+        /* border: 2px solid rgb(255, 157, 0); */
+        height: 50vh;
+    }
+    .menunav {
+        /* border: 2px solid rgb(255, 157, 0); */
+        width: 68vw;
+    }
+    .content {
+        background-size: 60vw 80vh;
+    }
+
+    #tagline {
+        font-size: 38px;
+    }
+    
+    #tagline2 {
+        font-size: 20px;
+    }
+    
+    .container {
+        /* border: 2px solid rgb(255, 157, 0); */
+        margin-left: 55vw;
+    }
+    
+    .aboutus {
+        /* border: 2px solid rgb(255, 0, 187); */
+        height: 74vh;
+    }
+    
+    .aboutflex{
+        height: 72vh;
+        
+    }
+    
+    #headabout {
+        width: 18vw;        
+    }
+
+    #bg{
+        /* border: 2px solid rgb(183, 104, 162); */
+        width: 45vw;
+        height: 45vh;
+        background-size: 40vw 50vh;
+    }
+    
+    #headoffer {
+        /* border: 2px solid rgb(255, 0, 1 70); */
+        font-size: 45px;
+        transform: translate(25vw, 0vh);
+        width: 60vw;
+    }
+    
+    #pic {
+        /* border: 2px solid rgb(255, 0, 170); */
+        transform: translate(-4vw, 0vh);
+        height: 30vh;
+        width: 40vw;
+    }
+    
+    .offercontainer {
+        /* border: 2px solid rgb(255, 153, 0); */
+        width: 310vw;
+        transform: translate(7vw, 0vh);
+    }
+    
+    #offercontainerhead {
+        /* border: 2px solid rgb(255, 0, 170); */
+        font-size: 42px;
+        width: 32vw;    
+        margin-left: 1vw;
+    }
+    
+    #offercontainerhead2 {
+        font-size: 23px;
+        margin-left: 1vw;
+    }
+    
+    #menuhead{
+        /* border: 2px solid rgb(0, 238, 255); */
+        font-size: 55px;
+        width: 30vw;
+    }
+    
+    .menu {
+        /* border: 2px solid rgb(255, 247, 0);  */
+        height: 60vh;
+        width: 65vw;
+    }
+    
+    .menucontainer {
+        /* border: 2px solid rgb(135, 134, 86);  */
+        height: 50vh;
+        width: 58vw;
+    }
+    
+    @keyframes example {
+        0% {
+            transform: translate(0);
+        }
+    
+        100% {
+            transform: translateX(calc(-79%));
+        }
+    }
+    
+    #available1 {
+        width: 8vw;
+    }
+    
+    #available2 {
+        height: 10.4vh;
+    }
+    
+    .flexcontact2 {
+        width: 75vw;
+    }
+
+    #headcontact {
+        margin-left: 2vw;
+        /* border: 2px solid blue; */
+    }
+    
+    #logoname2 {
+        font-size: 25px;
+        width: 73vw;
+    }
+}
+
+@media only screen and (max-width: 898px) {
+    .navbar {
+        /* border: 2px solid rgb(0, 255, 55); */
+        height: 30vh;
+    }
+
+    #logo {
+        margin: 5px;
+        margin-right: 1vw;
+        height: 10vh;
+    }
+    
+    #logoname {
+        font-size: 40px;
+        font-family: 'Satisfy', cursive;
+    }
+
+    .menunav {
+        /* border: 2px solid rgb(0, 255, 55); */
+        width: 68vw;
+    }
+    .content {
+        background-size: 60vw 80vh;
+    }
+
+    #tagline {
+        font-size: 38px;
+    }
+    
+    #tagline2 {
+        font-size: 20px;
+    }
+    
+    .container {
+        /* border: 2px solid rgb(255, 157, 0); */
+        margin-left: 55vw;
+        width: 42vw;
+    }
+    
+    .aboutus {
+        /* border: 2px solid rgb(255, 0, 187); */
+        height: 74vh;
+    }
+    
+    .aboutflex{
+        height: 72vh;
+        
+    }
+    
+    #headabout {
+        width: 18vw;        
+    }
+
+    #bg{
+        /* border: 2px solid rgb(183, 104, 162); */
+        width: 45vw;
+        height: 45vh;
+        background-size: 40vw 50vh;
+    }
+    
+    #headoffer {
+        /* border: 2px solid rgb(255, 0, 1 70); */
+        font-size: 45px;
+        transform: translate(25vw, 0vh);
+        width: 60vw;
+    }
+    
+    #pic {
+        /* border: 2px solid rgb(255, 0, 170); */
+        transform: translate(-4vw, 0vh);
+        height: 30vh;
+        width: 40vw;
+    }
+    
+    .offercontainer {
+        /* border: 2px solid rgb(255, 153, 0); */
+        width: 310vw;
+        transform: translate(7vw, 0vh);
+    }
+    
+    #offercontainerhead {
+        /* border: 2px solid rgb(255, 0, 170); */
+        font-size: 42px;
+        width: 32vw;    
+        margin-left: 1vw;
+    }
+    
+    #offercontainerhead2 {
+        font-size: 23px;
+        margin-left: 1vw;
+    }
+    
+    #menuhead{
+        font-size: 50px;
+        width: 28vw;
+    }
+    
+    .menu {
+        /* border: 2px solid rgb(255, 247, 0);  */
+        height: 60vh;
+        width: 65vw;
+    }
+    
+    .menucontainer {
+        /* border: 2px solid rgb(135, 134, 86);  */
+        height: 50vh;
+        width: 58vw;
+    }
+    
+    @keyframes example {
+        0% {
+            transform: translate(0);
+        }
+    
+        100% {
+            transform: translateX(calc(-79%));
+        }
+    }
+    
+    #available1 {
+        width: 8vw;
+    }
+    
+    #available2 {
+        height: 10.4vh;
+    }
+    
+    .flexcontact2 {
+        width: 75vw;
+    }
+
+    #headcontact {
+        margin-left: 2vw;
+        /* border: 2px solid blue; */
+    }
+    
+    #logoname2 {
+        font-size: 25px;
+        width: 73vw;
+    }
+
+    .cardcontainer {
+        /* border: 2px solid turquoise; */
+        width: 222vw;
+        height: 40vh;
+    }
+    
+    .card {
+        /* border: 2px solid green; */
+        width: 50vw;
+        height: 38vh;
+    }
+    
+    .cardesc{
+        width: 40vw;
+    }
+    
+    #img1 {
+        width: 25vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img2 {
+        width: 25vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img3 {
+        width: 25vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img4 {
+        width: 25vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img5 {
+        width: 25vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img6 {
+        width: 25vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img7 {
+        width: 25vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img8 {
+        width: 25vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img9 {
+        width: 25vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img10 {
+        width: 25vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    
+    #img11 {
+        width: 25vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 865px) {
+    .navbar {
+        /* border: 2px solid rgb(157, 0, 255); */
+        height: 30vh;
+        flex-direction: column;
+    }
+
+    .logonav {
+        /* border: 2px solid green; */
+        width: 60vw;
+    }
+
+    .menunav {
+        /* border: 2px solid rgb(255, 230, 0); */
+        font-size: 20px;
+        width: 95vw;
+    }
+
+    #tagline {
+        font-size: 38px;
+    }
+    
+    #tagline2 {
+        font-size: 20px;
+    }
+    
+    .content {
+        /* display: none; */
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        background-image:none;
+    }
+    
+    .container {
+        /* border: 2px solid red; */
+        margin-left: 0vw;
+        height: 80vh;
+        /* background-image: linear-gradient(to bottom, rgb(232, 222, 214), rgb(236, 207, 172)); */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/bg.jpg);
+        width: 99vw;
+        background-size: 99vw 100vh;
+        background-position: 0vw -10vh;
+        color: white;
+        background-repeat: none;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #line {
+        /* border: 2px solid yellow; */
+        width: 40vw;
+        color: white;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(255, 255, 255);
+        margin-left: 30vw;
+    
+    }
+
+    #find {
+        /* border: 2px solid orchid; */
+        width: 20vw;
+        border-radius: 3px;
+        font-size: 15px;
+        height: 5vh;
+        margin-top: 2vh;
+        border: 3px solid rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        /* opacity: 0%; */
+        margin-left: 2vw;
+        transition: 0.3s ease;
+    }
+    
+    #find:hover {
+        background-color: rgb(32, 32, 32);
+        color: white;
+    }
+    
+    .aboutus {
+        height: 85vh;
+    }
+    
+    .aboutflex{
+        /* border: 2px solid rgb(255, 0, 187); */
+        height: 82vh;
+        
+    }
+    
+    #headabout {
+        width: 20vw;        
+    }
+
+    #bg{
+        /* border: 2px solid rgb(183, 104, 162); */
+        width: 55vw;
+        height: 45vh;
+        background-size: 40vw 50vh;
+    }
+    
+    #headoffer {
+        /* border: 2px solid rgb(255, 0, 1 70); */
+        font-size: 45px;
+        transform: translate(23vw, 0vh);
+        width: 60vw;
+    }
+    
+    #pic {
+        /* border: 2px solid rgb(255, 0, 170); */
+        transform: translate(-8vw, 0vh);
+        height: 30vh;
+        width: 40vw;
+    }
+    
+    .offercontainer {
+        /* border: 2px solid rgb(255, 153, 0); */
+        width: 400vw;
+        transform: translate(9vw, 0vh);
+    }
+    
+    #offercontainerhead {
+        /* border: 2px solid rgb(255, 0, 170); */
+        font-size: 42px;
+        width: 35vw;    
+        margin-left: 1vw;
+    }
+
+    #offerbtn {
+        width: 15vw;
+        height: 8vh;
+    }
+    
+    #offercontainerhead2 {
+        font-size: 23px;
+        margin-left: 1vw;
+    }
+    
+    #menuhead{
+        font-size: 50px;
+        width: 35vw;
+    }
+    
+    .menu {
+        /* border: 2px solid rgb(255, 247, 0);  */
+        height: 60vh;
+        width: 60vw;
+    }
+    
+    .menucontainer {
+        /* border: 2px solid rgb(135, 134, 86);  */
+        height: 50vh;
+        width: 55vw;
+    }
+    
+    @keyframes example {
+        0% {
+            transform: translate(0);
+        }
+    
+        100% {
+            transform: translateX(calc(-105%));
+        }
+    }
+    
+    #available1 {
+        width: 8vw;
+    }
+    
+    #available2 {
+        height: 10.4vh;
+    }
+    
+    .flexcontact2 {
+        width: 75vw;
+    }
+
+    #headcontact {
+        margin-left: 2vw;
+        /* border: 2px solid blue; */
+    }
+
+    #available1 {
+        width: 8vw;
+    }
+    
+    #available2 {
+        height: 9vh;
+    }
+    
+    .flexcontact2 {
+        width: 75vw;
+    }
+
+    #headcontact {
+        margin-left: 1vw;
+        /* border: 2px solid blue; */
+    }
+    
+    #logoname2 {
+        font-size: 25px;
+        width: 73vw;
+    }
+}
+
+@media only screen and (max-width: 775px) {
+    .navbar {
+        /* border: 2px solid rgb(0, 242, 255); */
+        height: 30vh;
+        flex-direction: column;
+    }
+
+    .logonav {
+        /* border: 2px solid green; */
+        width: 60vw;
+    }
+
+    .menunav {
+        /* border: 2px solid rgb(255, 230, 0); */
+        font-size: 18px;
+        width: 95vw;
+    }
+
+    #tagline {
+        font-size: 38px;
+    }
+    
+    #tagline2 {
+        font-size: 20px;
+    }
+    
+    .content {
+        /* display: none; */
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        background-image:none;
+    }
+    
+    .container {
+        /* border: 2px solid red; */
+        margin-left: 0vw;
+        height: 80vh;
+        /* background-image: linear-gradient(to bottom, rgb(232, 222, 214), rgb(236, 207, 172)); */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/bg.jpg);
+        width: 99vw;
+        background-size: 140vw 100vh;
+        background-position: -20vw -10vh;
+        color: white;
+        background-repeat: none;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #line {
+        /* border: 2px solid yellow; */
+        width: 40vw;
+        color: white;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(255, 255, 255);
+        margin-left: 30vw;
+    
+    }
+
+    #find {
+        /* border: 2px solid orchid; */
+        width: 20vw;
+        border-radius: 3px;
+        font-size: 15px;
+        height: 5vh;
+        margin-top: 2vh;
+        border: 3px solid rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        /* opacity: 0%; */
+        margin-left: 2vw;
+        transition: 0.3s ease;
+    }
+    
+    #find:hover {
+        background-color: rgb(32, 32, 32);
+        color: white;
+    }
+
+
+    .aboutus {
+        /* border: 2px solid brown; */
+        /* margin-top: 2vh; */
+        color: black;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 20px;
+        padding-right: 0px;
+        margin-right: 0px;
+        background-image: linear-gradient(90deg, rgb(244, 241, 238), rgb(241, 214, 191), rgb(236, 207, 172), rgb(236, 207, 172));
+        /* background-image: linear-gradient(90deg,rgb(244, 241, 238), rgb(236, 207, 172),rgb(236, 207, 172), rgb(236, 207, 172)); */
+        /* background-image: linear-gradient(90deg,rgb(244, 241, 238)10%, rgb(236, 207, 172)90%); */
+    }
+    
+    .aboutflex{
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid yellow; */
+        height: 70vh;
+        width: 100vw;
+        padding: 20px;
+        padding-top: 0px;
+        padding-right: 0px;
+        justify-content: center;
+        /* align-items: center; */
+        align-content: center;
+    
+    }
+    
+    #bg{
+        /* border: 2px solid red; */
+        width: 80vw;
+        height: 45vh;
+        margin-left: -8vw;
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(bg2.jpg);
+        background-size: 80vw 50vh;
+        background-repeat: no-repeat;
+    }
+    
+    #headabout {
+        /* border: 2px solid green; */
+        width: 35vw;
+        font-size: 40px;
+        margin-top: 5vh;
+        
+    }
+    
+    #descabout {
+        width: 90vw;
+        font-size: 18px;
+        margin-top: 1vh;
+    }
+    
+    .offer {
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        /* align-content: space-between; */
+        color: white;
+        height: 35vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/patterns.jpg);
+        background-size: 20vw;
+    }
+    
+    #headoffer {
+        font-size: 40px;
+        transform: translate(23vw, 0vh);
+        z-index: 1;
+        width: 22vw;
+        display: none;
+        font-family: 'Josefin Sans', sans-serif;
+        /* border: 2px solid red; */
+    }
+    
+    #pic {
+        height: 20vh;
+        width: 80vw;
+        display: none;
+        /* z-index: -1; */
+        transform: translate(-5vw, 0vh);
+        filter: invert();
+        /* z-index: -1; */
+    }
+    
+    .offercontainer {
+        /* border: 2px solid rgb(255, 0, 144); */
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        border-radius: 5px;
+        height: 25vh;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgb(88, 11, 11);
+        transform: translate(-1vw, 0vh);
+        box-shadow: 5px 5px 5px rgb(30, 29, 29);
+    }
+    
+    #offercontainerhead {
+        font-size: 30px;
+        width: 50vw;
+        margin-left: -8vw;
+        font-family: 'Merriweather Sans', sans-serif;
+    }
+    
+    #offercontainerhead2 {
+        font-size: 25px;
+        margin-left: -8vw;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    #offerbtn {
+        width: 20vw;
+        height: 8vh;
+        background-color: rgb(72, 169, 72);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 18px;
+        box-shadow: 5px 5px 5px rgb(30, 29, 29);
+    
+    }
+    
+    #offerbtn:hover {
+        cursor: pointer;
+        background-color: rgb(53, 124, 30);
+        transition: 0.5s;
+    }
+    
+    .menuslider {
+        /* border: 2px solid yellow; */
+        height: 75vh;
+        color: black;
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        /* overflow: hidden; */
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(to bottom, rgb(236, 207, 172), rgb(236, 207, 172), rgb(241, 214, 191), rgb(244, 241, 238));
+    }
+    
+    #menuhead{
+        font-size: 60px;
+        /* border: 2px solid white; */
+        width: 60vw;
+        margin-left: 3vw;
+        font-family: 'Lobster Two', cursive;
+    }
+    
+    .menu {
+        /* border: 2px solid red; */
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 85vw;
+        align-content: center;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .menucontainer {
+        /* border: 2px solid blue; */
+        /* background-color: rgb(247, 219, 179); */
+        height: 50vh;
+        width: 85vw;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/doodle2.jpg);
+        background-size: 25vw 40vh;
+        position: relative;
+        transition: 1s;
+        overflow: hidden;
+        /* justify-content: center; */
+    }
+    
+    @keyframes example {
+        0% {
+            transform: translate(0);
+        }
+    
+        100% {
+            transform: translateX(calc(-108%));
+        }
+    }
+    
+    .cardcontainer {
+        /* border: 2px solid turquoise; */
+        display: flex;
+        position: relative;
+        /* justify-content: space-around; */
+        transition: 1s;
+        animation: example 30s infinite;
+        animation-timing-function: ease-in-out;
+        width: 300vw;
+        height: 37vh;
+    }
+    
+    .cardcontainer:hover{
+        animation-play-state: paused;
+    }
+    
+    .card {
+        /* border: 2px solid green; */
+        height: 35vh;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* align-content: center; */
+        background-color: rgb(228, 225, 225);
+        border-radius: 5px;
+        margin: 5px;
+        color: black;
+        filter: brightness(40%);
+    }
+    
+    .card:hover{
+        filter: brightness(100%);
+        /* height: 40vh;
+        width: 40vw; */
+        transition: 0.5s;
+        /* animation-play-state: paused; */
+    }
+    
+    .title {
+        /* border: 2px solid green; */
+        font-size: 20px;
+        margin: 20px;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .cardesc{
+        width: 30vw;
+    }
+    
+    #img1 {
+        width: 35vw;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    
+    #img2 {
+        width: 35vw;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    
+    #img3 {
+        width: 35vw;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    
+    #img4 {
+        width: 35vw;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    
+    #img5 {
+        width: 35vw;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    
+    #img6 {
+        width: 35vw;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    
+    #img7 {
+        width: 35vw;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    
+    #img8 {
+        width: 35vw;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    
+    #img9 {
+        width: 35vw;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    
+    #img10 {
+        width: 35vw;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    
+    #img11 {
+        width: 35vw;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    
+    .contact {
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(31, 31, 31);
+        color: white;
+        width: 100vw;
+        height: 35vh;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    #headcontact {
+        /* border: 2px solid black; */
+        font-size: 25px;
+        /* margin-left: 5vw; */
+        margin-bottom: 1vh;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    #available1 {
+        width: 12vw;
+    }
+    
+    #available2 {
+        height: 8.7vh;
+    }
+    
+    #phone {
+        height: 3vh;
+        filter: invert();
+    }
+    
+    #number {
+        font-size: 15px;
+        margin-left: 0.5vw;
+        font-family: 'Catamaran', sans-serif;
+    }
+    
+    .flexcontact2 {
+        /* border: 2px solid red; */
+        width: 95vw;
+        margin-right: 4vw;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+    }
+    
+    #address {
+        font-size: 12px;
+        line-height: 2vh;
+        font-family: 'Catamaran', sans-serif;
+    }
+    
+    #location {
+    /* border: 2px solid red; */
+        height: 3vh;
+        filter: invert();
+        margin-left: 2vw;
+    
+    }
+    
+    .location {
+        display: flex;
+        /* border: 2px solid rgb(221, 79, 79); */
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/locationbg.jpg);
+        height: 85vh;
+        width: 100vw;
+    }
+    
+    #locationhead {
+        font-size: 35px;
+        width: 60vw;
+        color: white;
+        background-color: black;
+        padding: 20px;
+        border-radius: 5px;
+        margin: 5px;
+        margin-bottom: 2vh;
+        border: 5px dashed white;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    #logo2 {
+        margin: 5px;
+        margin-right: 1vw;
+        height: 8vh;
+        /* border: 2px solid red; */
+        margin-left: 2vw;
+    }
+    
+    #logoname2 {
+        /* margin: 5px; */
+        /* border: 2px solid red; */
+        font-size: 25px;
+        width: 130vw;
+        font-family: 'Satisfy', cursive;
+        /* font-family: 'Kalam', cursive; */
+    }
+    
+    
+    #map{
+        width: 80vw;
+        margin-right: 1vw;
+    }
+}
