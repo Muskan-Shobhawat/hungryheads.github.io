@@ -2268,7 +2268,7 @@ a:hover {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(bg.jpg);
         width: 99vw;
         background-size: 200vw 100vh;
-        background-position: -50vw -10vh;
+        background-position: -55vw -10vh;
         color: white;
         background-repeat: none;
         display: flex;
@@ -2332,7 +2332,7 @@ a:hover {
         flex-direction: column;
         /* border: 2px solid yellow; */
         height: 140vh;
-        width: 100vw;
+        width: 90vw;
         padding: 20px;
         padding-top: 0px;
         padding-right: 0px;
@@ -2481,7 +2481,7 @@ a:hover {
         display: flex;
         align-items: center;
         align-content: center;
-        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(doodle2.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/doodle2.jpg);
         background-size: 30vw 40vh;
         position: relative;
         transition: 1s;
@@ -2551,67 +2551,67 @@ a:hover {
     }
     
     #img1 {
-        width: 35vw;
+        width: 45vw;
         height: 20vh;
         margin-bottom: 20px;
     }
     
     #img2 {
-        width: 35vw;
+        width: 45vw;
         height: 20vh;
         margin-bottom: 20px;
     }
     
     #img3 {
-        width: 35vw;
+        width: 45vw;
         height: 20vh;
         margin-bottom: 20px;
     }
     
     #img4 {
-        width: 35vw;
+        width: 45vw;
         height: 20vh;
         margin-bottom: 20px;
     }
     
     #img5 {
-        width: 35vw;
+        width: 45vw;
         height: 20vh;
         margin-bottom: 20px;
     }
     
     #img6 {
-        width: 35vw;
+        width: 45vw;
         height: 20vh;
         margin-bottom: 20px;
     }
     
     #img7 {
-        width: 35vw;
+        width: 45vw;
         height: 20vh;
         margin-bottom: 20px;
     }
     
     #img8 {
-        width: 35vw;
+        width: 45vw;
         height: 20vh;
         margin-bottom: 20px;
     }
     
     #img9 {
-        width: 35vw;
+        width: 45vw;
         height: 20vh;
         margin-bottom: 20px;
     }
     
     #img10 {
-        width: 35vw;
+        width: 45vw;
         height: 20vh;
         margin-bottom: 20px;
     }
     
     #img11 {
-        width: 35vw;
+        width: 45vw;
         height: 20vh;
         margin-bottom: 20px;
     }
