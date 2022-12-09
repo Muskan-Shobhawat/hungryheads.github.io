@@ -2513,7 +2513,7 @@ a:hover {
         transition: 1s;
         animation: example 30s infinite;
         animation-timing-function: ease-in-out;
-        width: 505vw;
+        width: 503vw;
         height: 42vh;
     }
     
