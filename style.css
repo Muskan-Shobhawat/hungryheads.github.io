@@ -2219,7 +2219,7 @@ a:hover {
     }
     .navbar {
         border: 2px solid rgb(0, 242, 255);
-        height: 40vh;
+        height: 35vh;
         flex-direction: column;
     }
     
@@ -2239,7 +2239,7 @@ a:hover {
     
     .menunav {
         border: 2px solid rgb(179, 255, 0);
-        font-size: 18px;
+        font-size: 15px;
         width: 85vw;
     }
 
@@ -2267,7 +2267,7 @@ a:hover {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(bg.jpg);
         width: 99vw;
         background-size: 200vw 100vh;
-        background-position: -20vw -10vh;
+        background-position: -30vw -10vh;
         color: white;
         background-repeat: none;
         display: flex;
@@ -2313,7 +2313,7 @@ a:hover {
         color: black;
         display: flex;
         flex-direction: column;
-        height: 170vh;
+        height: 200vh;
         width: 100vw;
         align-content: center;
         align-items: center;
@@ -2330,7 +2330,7 @@ a:hover {
         display: flex;
         flex-direction: column;
         border: 2px solid yellow;
-        height: 100vh;
+        height: 150vh;
         width: 100vw;
         padding: 20px;
         padding-top: 0px;
