@@ -2218,8 +2218,8 @@ a:hover {
         overflow-x: hidden;
     }
     .navbar {
-        border: 2px solid rgb(0, 255, 72);
-        height: 50vh;
+        border: 2px solid rgb(200, 0, 255);
+        height: 55vh;
         flex-direction: column;
     }
     
@@ -2459,7 +2459,7 @@ a:hover {
     }
     
     #menuhead{
-        font-size: 40px;
+        font-size: 42px;
         border: 2px solid white;
         width: 60vw;
         margin-left: 3vw;
@@ -2618,7 +2618,7 @@ a:hover {
         color: white;
         width: 100vw;
         height: 38vh;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         align-content: center;
     }
@@ -2632,7 +2632,7 @@ a:hover {
     
     #available1 {
         border: 2px solid rgb(215, 129, 129);
-        width: 15vw;
+        width: 17vw;
     }
     
     #available2 {
