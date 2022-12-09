@@ -2228,18 +2228,18 @@ a:hover {
     }
 
     #logoname {
-        font-size: 40px;
+        font-size: 30px;
     }
     
     .logonav {
         border: 2px solid green;
-        width: 70vw;
+        width: 75vw;
         font-size: 20px;
     }
     
     .menunav {
         border: 2px solid rgb(255, 230, 0);
-        font-size: 15px;
+        font-size: 12px;
         width: 80vw;
     }
 
