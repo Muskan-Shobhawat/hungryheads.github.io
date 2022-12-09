@@ -2219,7 +2219,7 @@ a:hover {
     }
     .navbar {
         border: 2px solid rgb(0, 242, 255);
-        height: 50vh;
+        height: 40vh;
         flex-direction: column;
     }
     
@@ -2240,7 +2240,7 @@ a:hover {
     .menunav {
         border: 2px solid rgb(255, 230, 0);
         font-size: 40px;
-        width: 80vw;
+        width: 85vw;
     }
 
     #tagline {
