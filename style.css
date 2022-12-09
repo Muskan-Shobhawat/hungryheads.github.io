@@ -2219,7 +2219,7 @@ a:hover {
     }
     .navbar {
         border: 2px solid rgb(0, 255, 72);
-        height: 40vh;
+        height: 50vh;
         flex-direction: column;
     }
     
@@ -2631,7 +2631,7 @@ a:hover {
     }
     
     #available1 {
-        /* border: 2px solid rgb(215, 129, 129); */
+        border: 2px solid rgb(215, 129, 129);
         width: 15vw;
     }
     
@@ -2686,7 +2686,7 @@ a:hover {
     }
     
     #locationhead {
-        font-size: 25px;
+        font-size: 28px;
         width: 60vw;
         color: white;
         background-color: black;
