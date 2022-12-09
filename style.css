@@ -2260,7 +2260,7 @@ a:hover {
     }
     
     .container {
-        /* border: 2px solid red; */
+        border: 2px solid red;
         margin-left: 0vw;
         height: 80vh;
         /* background-image: linear-gradient(to bottom, rgb(232, 222, 214), rgb(236, 207, 172)); */
@@ -2308,12 +2308,12 @@ a:hover {
 
 
     .aboutus {
-        /* border: 2px solid brown; */
+        border: 2px solid brown;
         /* margin-top: 2vh; */
         color: black;
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        height: 150vh;
         width: 100vw;
         align-content: center;
         align-items: center;
