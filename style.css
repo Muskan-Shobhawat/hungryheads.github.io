@@ -2214,21 +2214,24 @@ a:hover {
 }
 
 @media only screen and (max-width: 720px) {
+    body{
+        overflow-x: hidden;
+    }
     .navbar {
-        /* border: 2px solid rgb(0, 242, 255); */
+        border: 2px solid rgb(0, 242, 255);
         height: 50vh;
         flex-direction: column;
     }
 
     .logonav {
-        /* border: 2px solid green; */
+        border: 2px solid green;
         width: 60vw;
     }
 
     .menunav {
-        /* border: 2px solid rgb(255, 230, 0); */
+        border: 2px solid rgb(255, 230, 0);
         font-size: 18px;
-        width: 95vw;
+        width: 80vw;
     }
 
     #tagline {
@@ -2276,7 +2279,7 @@ a:hover {
 
     #find {
         /* border: 2px solid orchid; */
-        width: 20vw;
+        width: 25vw;
         border-radius: 3px;
         font-size: 15px;
         height: 5vh;
