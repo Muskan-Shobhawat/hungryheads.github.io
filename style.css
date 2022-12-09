@@ -2218,8 +2218,8 @@ a:hover {
         overflow-x: hidden;
     }
     .navbar {
-        border: 2px solid rgb(200, 0, 255);
-        height: 55vh;
+        /* border: 2px solid rgb(200, 0, 255); */
+        height: 58vh;
         flex-direction: column;
     }
     
@@ -2238,7 +2238,7 @@ a:hover {
     }
     
     .menunav {
-        border: 2px solid rgb(188, 118, 204);
+        /* border: 2px solid rgb(188, 118, 204); */
         font-size: 15px;
         width: 95vw;
         display: flex;
@@ -2248,7 +2248,7 @@ a:hover {
     }
 
     #tagline {
-        font-size: 38px;
+        font-size: 35px;
     }
     
     #tagline2 {
@@ -2461,7 +2461,7 @@ a:hover {
     #menuhead{
         font-size: 42px;
         border: 2px solid white;
-        width: 60vw;
+        width: 58vw;
         margin-left: 3vw;
         font-family: 'Lobster Two', cursive;
     }
@@ -2501,7 +2501,7 @@ a:hover {
         }
     
         100% {
-            transform: translateX(calc(-100%));
+            transform: translateX(calc(-98%));
         }
     }
     
@@ -2617,7 +2617,7 @@ a:hover {
         background-color: rgb(31, 31, 31);
         color: white;
         width: 100vw;
-        height: 38vh;
+        height: 45vh;
         justify-content: space-between;
         align-items: center;
         align-content: center;
@@ -2632,7 +2632,7 @@ a:hover {
     
     #available1 {
         border: 2px solid rgb(215, 129, 129);
-        width: 17vw;
+        width: 16.5vw;
     }
     
     #available2 {
@@ -2653,7 +2653,7 @@ a:hover {
     
     .flexcontact2 {
         /* border: 2px solid red; */
-        width: 95vw;
+        width: 80vw;
         margin-right: 4vw;
         display: flex;
         /* flex-direction: column; */
@@ -2686,7 +2686,7 @@ a:hover {
     }
     
     #locationhead {
-        font-size: 28px;
+        font-size: 25px;
         width: 60vw;
         color: white;
         background-color: black;
