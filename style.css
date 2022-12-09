@@ -2256,7 +2256,7 @@ a:hover {
     .content {
         /* display: none; */
         height: 80vh;
-        width: 150vw;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         background-image:none;
@@ -2266,7 +2266,7 @@ a:hover {
         /* border: 2px solid red; */
         margin-left: 0vw;
         height: 80vh;
-        width: 150vw;
+        width: 100vw;
         /* background-image: linear-gradient(to bottom, rgb(232, 222, 214), rgb(236, 207, 172)); */
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(bg.jpg);
         /* width: 99vw; */
