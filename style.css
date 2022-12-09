@@ -2329,7 +2329,7 @@ a:hover {
     .aboutflex{
         display: flex;
         flex-direction: column;
-        /* border: 2px solid yellow; */
+        border: 2px solid yellow;
         height: 70vh;
         width: 100vw;
         padding: 20px;
@@ -2342,12 +2342,12 @@ a:hover {
     }
     
     #bg{
-        /* border: 2px solid red; */
-        width: 80vw;
-        height: 45vh;
-        margin-left: -8vw;
+        border: 2px solid red;
+        width: 85vw;
+        height: 50vh;
+        margin-right: 8vw;
         background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(bg2.jpg);
-        background-size: 80vw 50vh;
+        background-size: 85vw 50vh;
         background-repeat: no-repeat;
     }
     
