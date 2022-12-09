@@ -2218,7 +2218,7 @@ a:hover {
         overflow-x: hidden;
     }
     .navbar {
-        border: 2px solid rgb(0, 242, 255);
+        border: 2px solid rgb(0, 255, 72);
         height: 35vh;
         flex-direction: column;
     }
