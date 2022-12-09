@@ -2241,6 +2241,8 @@ a:hover {
         border: 2px solid rgb(188, 118, 204);
         font-size: 12px;
         width: 95vw;
+        display: flex;
+    justify-content: center;
     }
 
     #tagline {
@@ -2254,7 +2256,7 @@ a:hover {
     .content {
         /* display: none; */
         height: 80vh;
-        width: 100vw;
+        width: 150vw;
         display: flex;
         flex-direction: column;
         background-image:none;
@@ -2264,10 +2266,10 @@ a:hover {
         /* border: 2px solid red; */
         margin-left: 0vw;
         height: 80vh;
-        width: 100vw;
+        width: 150vw;
         /* background-image: linear-gradient(to bottom, rgb(232, 222, 214), rgb(236, 207, 172)); */
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(bg.jpg);
-        width: 99vw;
+        /* width: 99vw; */
         background-size: 200vw 100vh;
         background-position: -55vw -10vh;
         color: white;
@@ -2321,7 +2323,7 @@ a:hover {
         align-items: center;
         justify-content: space-evenly;
         padding: 20px;
-        padding-left: 0px;
+        /* padding-: 0px; */
         margin-right: 0px;
         background-image: linear-gradient(90deg, rgb(244, 241, 238), rgb(241, 214, 191), rgb(236, 207, 172), rgb(236, 207, 172));
         /* background-image: linear-gradient(90deg,rgb(244, 241, 238), rgb(236, 207, 172),rgb(236, 207, 172), rgb(236, 207, 172)); */
@@ -2333,7 +2335,7 @@ a:hover {
         flex-direction: column;
         /* border: 2px solid yellow; */
         height: 140vh;
-        width: 90vw;
+        width: 85vw;
         padding: 20px;
         padding-top: 0px;
         padding-right: 0px;
@@ -2442,7 +2444,7 @@ a:hover {
     
     .menuslider {
         border: 2px solid yellow;
-        height: 90vh;
+        height: 85vh;
         color: black;
         display: flex;
         width: 100vw;
@@ -2482,7 +2484,7 @@ a:hover {
         display: flex;
         align-items: center;
         align-content: center;
-        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/doodle2.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(doodle2.jpg);
         background-size: 30vw 40vh;
         position: relative;
         transition: 1s;
@@ -2496,7 +2498,7 @@ a:hover {
         }
     
         100% {
-            transform: translateX(calc(-108%));
+            transform: translateX(calc(-150%));
         }
     }
     
@@ -2510,10 +2512,6 @@ a:hover {
         animation-timing-function: ease-in-out;
         width: 400vw;
         height: 37vh;
-    }
-    
-    .cardcontainer:hover{
-        animation-play-state: paused;
     }
     
     .card {
@@ -2553,67 +2551,67 @@ a:hover {
     
     #img1 {
         width: 50vw;
-        height: 20vh;
+        height: 25vh;
         margin-bottom: 20px;
     }
     
     #img2 {
         width: 50vw;
-        height: 20vh;
+        height: 25vh;
         margin-bottom: 20px;
     }
     
     #img3 {
         width: 50vw;
-        height: 20vh;
+        height: 25vh;
         margin-bottom: 20px;
     }
     
     #img4 {
         width: 50vw;
-        height: 20vh;
+        height: 25vh;
         margin-bottom: 20px;
     }
     
     #img5 {
         width: 50vw;
-        height: 20vh;
+        height: 25vh;
         margin-bottom: 20px;
     }
     
     #img6 {
         width: 50vw;
-        height: 20vh;
+        height: 25vh;
         margin-bottom: 20px;
     }
     
     #img7 {
         width: 50vw;
-        height: 20vh;
+        height: 25vh;
         margin-bottom: 20px;
     }
     
     #img8 {
         width: 50vw;
-        height: 20vh;
+        height: 25vh;
         margin-bottom: 20px;
     }
     
     #img9 {
         width: 50vw;
-        height: 20vh;
+        height: 25vh;
         margin-bottom: 20px;
     }
     
     #img10 {
         width: 50vw;
-        height: 20vh;
+        height: 25vh;
         margin-bottom: 20px;
     }
     
     #img11 {
         width: 50vw;
-        height: 20vh;
+        height: 25vh;
         margin-bottom: 20px;
     }
     
@@ -2631,7 +2629,6 @@ a:hover {
     }
     
     #headcontact {
-        /* border: 2px solid black; */
         font-size: 25px;
         /* margin-left: 5vw; */
         margin-bottom: 1vh;
@@ -2639,16 +2636,17 @@ a:hover {
     }
     
     #available1 {
+        border: 2px solid rgb(215, 129, 129);
         width: 12vw;
     }
     
     #available2 {
+        border: 2px solid rgb(215, 129, 129);
         height: 8.7vh;
     }
     
     #phone {
         height: 3vh;
-        filter: invert();
     }
     
     #number {
@@ -2675,7 +2673,6 @@ a:hover {
     #location {
     /* border: 2px solid red; */
         height: 3vh;
-        filter: invert();
         margin-left: 2vw;
     
     }
@@ -2687,13 +2684,13 @@ a:hover {
         align-items: center;
         flex-direction: column;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(locationbg.jpg);
-        height: 90vh;
+        height: 100vh;
         width: 100vw;
     }
     
     #locationhead {
-        font-size: 30px;
-        width: 60vw;
+        font-size: 25px;
+        width: 65vw;
         color: white;
         background-color: black;
         padding: 20px;
