@@ -2439,7 +2439,7 @@ a:hover {
     }
     
     .menuslider {
-        /* border: 2px solid yellow; */
+        border: 2px solid yellow;
         height: 75vh;
         color: black;
         display: flex;
@@ -2453,14 +2453,14 @@ a:hover {
     
     #menuhead{
         font-size: 55px;
-        /* border: 2px solid white; */
+        border: 2px solid white;
         width: 65vw;
         margin-left: 3vw;
         font-family: 'Lobster Two', cursive;
     }
     
     .menu {
-        /* border: 2px solid red; */
+        border: 2px solid red;
         height: 60vh;
         display: flex;
         align-items: center;
@@ -2472,7 +2472,7 @@ a:hover {
     }
     
     .menucontainer {
-        /* border: 2px solid blue; */
+        border: 2px solid blue;
         /* background-color: rgb(247, 219, 179); */
         height: 50vh;
         width: 85vw;
@@ -2481,7 +2481,7 @@ a:hover {
         align-items: center;
         align-content: center;
         background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(doodle2.jpg);
-        background-size: 25vw 40vh;
+        background-size: 30vw 40vh;
         position: relative;
         transition: 1s;
         overflow: hidden;
@@ -2499,14 +2499,14 @@ a:hover {
     }
     
     .cardcontainer {
-        /* border: 2px solid turquoise; */
+        border: 2px solid turquoise;
         display: flex;
         position: relative;
         /* justify-content: space-around; */
         transition: 1s;
         animation: example 30s infinite;
         animation-timing-function: ease-in-out;
-        width: 300vw;
+        width: 35s0vw;
         height: 37vh;
     }
     
@@ -2515,9 +2515,9 @@ a:hover {
     }
     
     .card {
-        /* border: 2px solid green; */
+        border: 2px solid green;
         height: 35vh;
-        width: 80vw;
+        width: 95vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2539,7 +2539,7 @@ a:hover {
     }
     
     .title {
-        /* border: 2px solid green; */
+        border: 2px solid green;
         font-size: 20px;
         margin: 20px;
         font-family: 'Lato', sans-serif;
