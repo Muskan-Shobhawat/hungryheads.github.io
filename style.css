@@ -2427,7 +2427,7 @@ a:hover {
     }
     
     #offerbtn {
-        width: 25vw;
+        width: 30vw;
         height: 8vh;
         background-color: rgb(72, 169, 72);
         border: none;
@@ -2452,9 +2452,9 @@ a:hover {
     }
     
     #menuhead{
-        font-size: 60px;
+        font-size: 55px;
         /* border: 2px solid white; */
-        width: 60vw;
+        width: 65vw;
         margin-left: 3vw;
         font-family: 'Lobster Two', cursive;
     }
