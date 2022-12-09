@@ -2339,6 +2339,7 @@ a:hover {
         padding: 20px;
         padding-top: 0px;
         padding-right: 0px;
+        margin-right: 5vw;
         justify-content: center;
         /* align-items: center; */
         align-content: center;
@@ -2349,7 +2350,7 @@ a:hover {
         /* border: 2px solid red; */
         width: 85vw;
         height: 50vh;
-        margin-right: 8vw;
+        margin-left: 5vw;
         background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(bg2.jpg);
         background-size: 90vw 50vh;
         background-repeat: no-repeat;
@@ -2444,7 +2445,7 @@ a:hover {
     
     .menuslider {
         border: 2px solid yellow;
-        height: 85vh;
+        height: 80vh;
         color: black;
         display: flex;
         width: 100vw;
@@ -2456,7 +2457,7 @@ a:hover {
     }
     
     #menuhead{
-        font-size: 30px;
+        font-size: 35px;
         border: 2px solid white;
         width: 60vw;
         margin-left: 3vw;
@@ -2510,7 +2511,7 @@ a:hover {
         transition: 1s;
         animation: example 30s infinite;
         animation-timing-function: ease-in-out;
-        width: 500vw;
+        width: 502vw;
         height: 40vh;
     }
     
@@ -2613,8 +2614,8 @@ a:hover {
         flex-direction: column;
         background-color: rgb(31, 31, 31);
         color: white;
-        width: 100vw;
-        height: 35vh;
+        width: 98vw;
+        height: 38vh;
         justify-content: center;
         align-items: center;
         align-content: center;
@@ -2634,11 +2635,12 @@ a:hover {
     
     #available2 {
         border: 2px solid rgb(215, 129, 129);
-        height: 12vh;
+        height: 10vh;
     }
     
     #phone {
         height: 3vh;
+        filter: invert();
     }
     
     #number {
@@ -2663,7 +2665,8 @@ a:hover {
     }
     
     #location {
-    /* border: 2px solid red; */
+        /* border: 2px solid red; */
+        filter: invert();
         height: 3vh;
         margin-left: 2vw;
     
