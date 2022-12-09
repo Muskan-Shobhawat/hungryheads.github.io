@@ -2263,11 +2263,12 @@ a:hover {
         /* border: 2px solid red; */
         margin-left: 0vw;
         height: 80vh;
+        width: 100vw;
         /* background-image: linear-gradient(to bottom, rgb(232, 222, 214), rgb(236, 207, 172)); */
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(bg.jpg);
         width: 99vw;
         background-size: 200vw 100vh;
-        background-position: -45vw -10vh;
+        background-position: -50vw -10vh;
         color: white;
         background-repeat: none;
         display: flex;
@@ -2345,7 +2346,7 @@ a:hover {
         /* border: 2px solid red; */
         width: 85vw;
         height: 50vh;
-        margin-right: 8vw;
+        margin-right: 5vw;
         background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(bg2.jpg);
         background-size: 90vw 50vh;
         background-repeat: no-repeat;
@@ -2440,7 +2441,7 @@ a:hover {
     
     .menuslider {
         border: 2px solid yellow;
-        height: 75vh;
+        height: 80vh;
         color: black;
         display: flex;
         width: 100vw;
@@ -2452,7 +2453,7 @@ a:hover {
     }
     
     #menuhead{
-        font-size: 55px;
+        font-size: 50px;
         border: 2px solid white;
         width: 65vw;
         margin-left: 3vw;
@@ -2685,12 +2686,12 @@ a:hover {
         align-items: center;
         flex-direction: column;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(locationbg.jpg);
-        height: 85vh;
+        height: 90vh;
         width: 100vw;
     }
     
     #locationhead {
-        font-size: 35px;
+        font-size: 30px;
         width: 60vw;
         color: white;
         background-color: black;
@@ -2706,7 +2707,7 @@ a:hover {
         margin: 5px;
         margin-right: 1vw;
         height: 8vh;
-        /* border: 2px solid red; */
+        border: 2px solid red;
         margin-left: 2vw;
     }
     
