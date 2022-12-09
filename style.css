@@ -2454,7 +2454,7 @@ a:hover {
     }
     
     #menuhead{
-        font-size: 45px;
+        font-size: 30px;
         border: 2px solid white;
         width: 70vw;
         margin-left: 3vw;
@@ -2508,7 +2508,7 @@ a:hover {
         transition: 1s;
         animation: example 30s infinite;
         animation-timing-function: ease-in-out;
-        width: 35s0vw;
+        width: 400vw;
         height: 37vh;
     }
     
