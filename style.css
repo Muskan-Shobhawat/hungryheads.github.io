@@ -2222,15 +2222,24 @@ a:hover {
         height: 50vh;
         flex-direction: column;
     }
-
-    .logonav {
-        border: 2px solid green;
-        width: 75vw;
+    
+    #logo {
+        height: 12vh;
     }
 
+    #logoname {
+        font-size: 40px;
+    }
+    
+    .logonav {
+        border: 2px solid green;
+        width: 70vw;
+        font-size: 20px;
+    }
+    
     .menunav {
         border: 2px solid rgb(255, 230, 0);
-        font-size: 18px;
+        font-size: 15px;
         width: 80vw;
     }
 
