@@ -2366,7 +2366,7 @@ a:hover {
     }
     
     .offer {
-        /* border: 2px solid yellow; */
+        border: 2px solid yellow;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -2386,7 +2386,7 @@ a:hover {
         width: 22vw;
         display: none;
         font-family: 'Josefin Sans', sans-serif;
-        /* border: 2px solid red; */
+        border: 2px solid red;
     }
     
     #pic {
@@ -2400,7 +2400,7 @@ a:hover {
     }
     
     .offercontainer {
-        /* border: 2px solid rgb(255, 0, 144); */
+        border: 2px solid rgb(255, 0, 144);
         display: flex;
         flex-direction: column;
         width: 70vw;
@@ -2414,20 +2414,20 @@ a:hover {
     }
     
     #offercontainerhead {
-        font-size: 30px;
+        font-size: 25px;
         width: 50vw;
         margin-left: -8vw;
         font-family: 'Merriweather Sans', sans-serif;
     }
     
     #offercontainerhead2 {
-        font-size: 25px;
+        font-size: 20px;
         margin-left: -8vw;
         font-family: 'Lato', sans-serif;
     }
     
     #offerbtn {
-        width: 20vw;
+        width: 25vw;
         height: 8vh;
         background-color: rgb(72, 169, 72);
         border: none;
@@ -2436,12 +2436,6 @@ a:hover {
         font-size: 18px;
         box-shadow: 5px 5px 5px rgb(30, 29, 29);
     
-    }
-    
-    #offerbtn:hover {
-        cursor: pointer;
-        background-color: rgb(53, 124, 30);
-        transition: 0.5s;
     }
     
     .menuslider {
