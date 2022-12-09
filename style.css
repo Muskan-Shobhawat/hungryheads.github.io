@@ -2238,8 +2238,8 @@ a:hover {
     }
     
     .menunav {
-        border: 2px solid rgb(255, 145, 0);
-        font-size: 15px;
+        border: 2px solid rgb(187, 167, 141);
+        font-size: 12px;
         width: 90vw;
     }
 
@@ -2260,14 +2260,14 @@ a:hover {
     }
     
     .container {
-        border: 2px solid red;
+        /* border: 2px solid red; */
         margin-left: 0vw;
         height: 80vh;
         /* background-image: linear-gradient(to bottom, rgb(232, 222, 214), rgb(236, 207, 172)); */
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(bg.jpg);
         width: 99vw;
         background-size: 200vw 100vh;
-        background-position: -30vw -10vh;
+        background-position: -45vw -10vh;
         color: white;
         background-repeat: none;
         display: flex;
@@ -2308,7 +2308,7 @@ a:hover {
 
 
     .aboutus {
-        border: 2px solid brown;
+        /* border: 2px solid brown; */
         /* margin-top: 2vh; */
         color: black;
         display: flex;
@@ -2329,7 +2329,7 @@ a:hover {
     .aboutflex{
         display: flex;
         flex-direction: column;
-        border: 2px solid yellow;
+        /* border: 2px solid yellow; */
         height: 140vh;
         width: 100vw;
         padding: 20px;
@@ -2342,7 +2342,7 @@ a:hover {
     }
     
     #bg{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 85vw;
         height: 50vh;
         margin-right: 8vw;
@@ -2353,7 +2353,7 @@ a:hover {
     
     #headabout {
         /* border: 2px solid green; */
-        width: 40vw;
+        width: 50vw;
         font-size: 35px;
         margin-top: 5vh;
         
@@ -2366,7 +2366,7 @@ a:hover {
     }
     
     .offer {
-        border: 2px solid yellow;
+        /* border: 2px solid yellow; */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -2386,7 +2386,7 @@ a:hover {
         width: 22vw;
         display: none;
         font-family: 'Josefin Sans', sans-serif;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
     
     #pic {
@@ -2400,7 +2400,7 @@ a:hover {
     }
     
     .offercontainer {
-        border: 2px solid rgb(255, 0, 144);
+        /* border: 2px solid rgb(255, 0, 144); */
         display: flex;
         flex-direction: column;
         width: 70vw;
