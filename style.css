@@ -2266,7 +2266,7 @@ a:hover {
         /* background-image: linear-gradient(to bottom, rgb(232, 222, 214), rgb(236, 207, 172)); */
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(bg.jpg);
         width: 99vw;
-        background-size: 140vw 100vh;
+        background-size: 200vw 100vh;
         background-position: -20vw -10vh;
         color: white;
         background-repeat: none;
