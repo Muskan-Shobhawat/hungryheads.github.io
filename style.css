@@ -2349,7 +2349,7 @@ a:hover {
         /* border: 2px solid red; */
         width: 85vw;
         height: 50vh;
-        margin-right: 5vw;
+        margin-right: 8vw;
         background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(bg2.jpg);
         background-size: 90vw 50vh;
         background-repeat: no-repeat;
@@ -2713,7 +2713,7 @@ a:hover {
         /* margin: 5px; */
         /* border: 2px solid red; */
         font-size: 25px;
-        width: 130vw;
+        width: 150vw;
         font-family: 'Satisfy', cursive;
         /* font-family: 'Kalam', cursive; */
     }
