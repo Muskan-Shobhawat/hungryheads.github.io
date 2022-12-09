@@ -2219,7 +2219,7 @@ a:hover {
     }
     .navbar {
         border: 2px solid rgb(0, 255, 72);
-        height: 35vh;
+        height: 40vh;
         flex-direction: column;
     }
     
@@ -2232,17 +2232,19 @@ a:hover {
     }
     
     .logonav {
-        border: 2px solid green;
+        /* border: 2px solid green; */
         width: 75vw;
         font-size: 20px;
     }
     
     .menunav {
         border: 2px solid rgb(188, 118, 204);
-        font-size: 12px;
+        font-size: 15px;
         width: 95vw;
         display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     }
 
     #tagline {
@@ -2444,7 +2446,7 @@ a:hover {
     }
     
     .menuslider {
-        border: 2px solid yellow;
+        /* border: 2px solid yellow; */
         height: 80vh;
         color: black;
         display: flex;
@@ -2465,7 +2467,7 @@ a:hover {
     }
     
     .menu {
-        border: 2px solid red;
+        /* border: 2px solid red; */
         height: 60vh;
         display: flex;
         align-items: center;
@@ -2477,7 +2479,7 @@ a:hover {
     }
     
     .menucontainer {
-        border: 2px solid blue;
+        /* border: 2px solid blue; */
         /* background-color: rgb(247, 219, 179); */
         height: 50vh;
         width: 85vw;
@@ -2504,7 +2506,7 @@ a:hover {
     }
     
     .cardcontainer {
-        border: 2px solid turquoise;
+        /* border: 2px solid turquoise; */
         display: flex;
         position: relative;
         /* justify-content: space-around; */
@@ -2516,7 +2518,7 @@ a:hover {
     }
     
     .card {
-        border: 2px solid green;
+        /* border: 2px solid green; */
         height: 40vh;
         width: 95vw;
         display: flex;
@@ -2532,7 +2534,7 @@ a:hover {
     }
     
     .title {
-        border: 2px solid green;
+        /* border: 2px solid green; */
         font-size: 20px;
         margin: 20px;
         font-family: 'Lato', sans-serif;
@@ -2629,12 +2631,12 @@ a:hover {
     }
     
     #available1 {
-        border: 2px solid rgb(215, 129, 129);
+        /* border: 2px solid rgb(215, 129, 129); */
         width: 15vw;
     }
     
     #available2 {
-        border: 2px solid rgb(215, 129, 129);
+        /* border: 2px solid rgb(215, 129, 129); */
         height: 10vh;
     }
     
@@ -2700,7 +2702,7 @@ a:hover {
         margin: 5px;
         margin-right: 1vw;
         height: 8vh;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         margin-left: 2vw;
     }
     
