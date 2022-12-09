@@ -2239,7 +2239,7 @@ a:hover {
     
     .menunav {
         border: 2px solid rgb(255, 230, 0);
-        font-size: 40px;
+        font-size: 18px;
         width: 85vw;
     }
 
@@ -2313,7 +2313,7 @@ a:hover {
         color: black;
         display: flex;
         flex-direction: column;
-        height: 150vh;
+        height: 170vh;
         width: 100vw;
         align-content: center;
         align-items: center;
@@ -2330,7 +2330,7 @@ a:hover {
         display: flex;
         flex-direction: column;
         border: 2px solid yellow;
-        height: 70vh;
+        height: 100vh;
         width: 100vw;
         padding: 20px;
         padding-top: 0px;
@@ -2347,13 +2347,13 @@ a:hover {
         height: 50vh;
         margin-right: 8vw;
         background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(bg2.jpg);
-        background-size: 85vw 50vh;
+        background-size: 90vw 50vh;
         background-repeat: no-repeat;
     }
     
     #headabout {
         /* border: 2px solid green; */
-        width: 35vw;
+        width: 40vw;
         font-size: 40px;
         margin-top: 5vh;
         
