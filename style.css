@@ -2318,7 +2318,7 @@ a:hover {
         display: flex;
         flex-direction: column;
         height: 180vh;
-        width: 100vw;
+        width: 90vw;
         align-content: center;
         align-items: center;
         justify-content: space-evenly;
@@ -2458,7 +2458,7 @@ a:hover {
     #menuhead{
         font-size: 30px;
         border: 2px solid white;
-        width: 70vw;
+        width: 60vw;
         margin-left: 3vw;
         font-family: 'Lobster Two', cursive;
     }
@@ -2498,7 +2498,7 @@ a:hover {
         }
     
         100% {
-            transform: translateX(calc(-150%));
+            transform: translateX(calc(-100%));
         }
     }
     
@@ -2516,7 +2516,7 @@ a:hover {
     
     .card {
         border: 2px solid green;
-        height: 35vh;
+        height: 40vh;
         width: 95vw;
         display: flex;
         flex-direction: column;
