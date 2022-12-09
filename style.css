@@ -2238,9 +2238,9 @@ a:hover {
     }
     
     .menunav {
-        border: 2px solid rgb(255, 0, 204);
+        border: 2px solid rgb(255, 145, 0);
         font-size: 15px;
-        width: 85vw;
+        width: 90vw;
     }
 
     #tagline {
@@ -2313,7 +2313,7 @@ a:hover {
         color: black;
         display: flex;
         flex-direction: column;
-        height: 200vh;
+        height: 180vh;
         width: 100vw;
         align-content: center;
         align-items: center;
@@ -2330,7 +2330,7 @@ a:hover {
         display: flex;
         flex-direction: column;
         border: 2px solid yellow;
-        height: 150vh;
+        height: 140vh;
         width: 100vw;
         padding: 20px;
         padding-top: 0px;
@@ -2354,7 +2354,7 @@ a:hover {
     #headabout {
         /* border: 2px solid green; */
         width: 40vw;
-        font-size: 40px;
+        font-size: 35px;
         margin-top: 5vh;
         
     }
