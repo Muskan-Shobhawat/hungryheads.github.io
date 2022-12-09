@@ -2642,7 +2642,7 @@ a:hover {
     
     #available2 {
         border: 2px solid rgb(215, 129, 129);
-        height: 8.7vh;
+        height: 12vh;
     }
     
     #phone {
@@ -2690,7 +2690,7 @@ a:hover {
     
     #locationhead {
         font-size: 25px;
-        width: 65vw;
+        width: 60vw;
         color: white;
         background-color: black;
         padding: 20px;
