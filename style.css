@@ -2661,7 +2661,7 @@ a:hover {
     .flexcontact2 {
         /* border: 2px solid red; */
         width: 50vw;
-        margin-left:x5vw;
+        margin-right:5vw;
         display: flex;
         /* flex-direction: column; */
         align-items: center;
