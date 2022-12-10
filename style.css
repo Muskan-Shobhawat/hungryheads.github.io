@@ -2495,7 +2495,7 @@ a:hover {
         align-items: center;
         align-content: center;
         background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(doodle2.jpg);
-        background-size: 30vw 40vh;
+        background-size: 50vw 40vh;
         position: relative;
         transition: 1s;
         overflow: hidden;
@@ -2649,7 +2649,7 @@ a:hover {
 
     #phone {
         height: 3vh;
-        filter: invert();
+
     }
 
     #number {
@@ -2661,7 +2661,7 @@ a:hover {
     .flexcontact2 {
         /* border: 2px solid red; */
         width: 50vw;
-        margin-left:5vw;
+        margin-left:x5vw;
         display: flex;
         /* flex-direction: column; */
         align-items: center;
@@ -2675,7 +2675,7 @@ a:hover {
 
     #location {
         /* border: 2px solid red; */
-        filter: invert();
+        /* filter: invert(); */
         height: 3vh;
         margin-left: 2vw;
 
