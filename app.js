@@ -17,10 +17,10 @@ let navbar=document.getElementsByClassName("navbar");
 
 cardcontainer[0].addEventListener("mouseenter", fun);
 function fun(){
-menucontainer[0].style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/doodle2.jpg)";
+menucontainer[0].style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(doodle2.jpg)";
 }
 
 cardcontainer[0].addEventListener("mouseleave", fun1);
 function fun1(){
-menucontainer[0].style="background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/doodle2.jpg)";
+menucontainer[0].style="background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(doodle2.jpg)";
 }
